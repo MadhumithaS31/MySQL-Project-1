@@ -1,0 +1,23 @@
+use mde;
+show tables;
+create table mde.students1(
+SI varchar(40),
+Name varchar(40),
+Rollno varchar(40),
+dept varchar(40),
+collegename varchar(40),
+place varchar(40)
+);
+select * from mde;
+select * from mde.students1;
+insert into mde.students1 values
+("1", "Shobi", "49", "BME", "MEC", "salem"),
+("2", "Viggy", "57", "BME", "MEC", "salem"),
+("3", "Elakkiya", "15", "BME", "MEC", "salem"),
+("4", "Shivadharshini", "50", "BME", "MEC", "salem"),
+("5", "Sabi", "20", "BME", "MEC", "salem"),
+("6", "Jeeva", "21", "BME", "MEC", "salem"),
+("7", "Vino", "56", "BME", "MEC", "salem"),
+("8", "pavi", "46", "BME", "MEC", "salem"),
+("9", "Sri", "47", "BME", "MEC", "salem"),
+("Leomadhu", "Leomadhu", "Leomadhu", "Leomadhu", "Leomadhu", "Leom
